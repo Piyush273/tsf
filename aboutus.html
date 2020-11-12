@@ -1,0 +1,208 @@
+<html>
+	<head>
+		<title>About us</title>
+		<style type="text/css">		
+
+
+.input-box
+{
+	border-radius:30px;
+	padding:10px;
+	margin:10px 0;
+	width:80%;
+	border:1px solid #999;
+	outline:none;
+}
+.about{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 30px;
+
+}
+.aboutt{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 23px;
+	margin-left: 90px;
+	text-align: center;
+	color: #ccccb3
+rgb(204, 204, 179)
+hsl(60, 20%, 75%);
+
+}
+.img{
+	margin-top: 30px;
+}
+.footer{
+	background-color: black;
+	font-size: 20px;
+	font-family: cursive;
+	color: white;
+	
+}
+h3{
+	
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 25px;
+	margin-left: 90px;
+	
+	color: grey;
+
+}
+img
+{
+	height: 1000px;
+	background-attachment: fixed;
+	transition: transform 4s;
+	transition: opacity 4s;
+	opacity: 5;
+	margin-top:-10px;
+	width: 100%;
+	opacity: 5;
+}
+*{
+padding:0;
+margin:0;
+text-decoration:none;
+list-style:none;
+box-sizing:border-box;
+}
+body{
+	margin:20px;
+	opacity:0.9;
+	background-image:url(pay.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	font-family:montserrat;
+}
+nav{
+background:black ;
+border-radius:25px;
+height:10%;
+width:100%;
+}
+label.logo{
+	color:white;
+	font-size:35px;
+	line-height:80px;
+	padding:0 100px;
+	font-weight:bold;
+}
+nav ul{
+	float:right;
+	margin-right:20px;
+}
+nav ul li{
+	display:inline-block;
+	line-height:80px;
+	margin:0 5px;
+}
+nav ul li a{
+	color:white;
+	font-size:18px;
+	padding:7px 13px;
+	border-radius:3px;
+	text-transform:uppercase;
+}
+a.active,a:hover{
+	background:black;
+	transition:0.5s;
+}
+.checkbtn{
+font-size:30px;
+color:white;
+float:right;
+line-height:80px;
+margin-right:40px;
+cursor:pointer;
+display:none;	
+}
+#check{
+	display:none;
+}
+@media (max-width:952px){
+	label.logo{
+		font-size:30px;
+		padding-left:50px;
+	}
+	nav ul l a{
+		font-size:16px;
+	}
+}
+@media (max-width:858px){
+	.checkbtn{
+		display:block;
+	}
+	ul{
+		position:fixed;
+		width:100%;
+		height:100vh;
+		background:#2c3e50;
+		top:80px;
+		left:-100%;
+		text-align:center;
+		transition:all .5s;
+	}
+	nav ul li{
+		display:block;
+		margin:50px 0;
+		line-height:30px;
+	}
+	nav ul li a{
+		font-size:20px;
+	}
+	a:hover,a.active{
+		background:none;
+		color:#0082e6;
+	}
+	#check:checked~ul{
+		left:0;
+	}
+}
+
+
+
+		</style>
+		
+	</head>
+	<body>
+		<div class="header">
+		<nav>
+			<input type="checkbox" id="check">
+			<label for="check" class="checkbtn">
+			<i class="fas fa-bars"></i>
+			</label>
+			<label class="logo">Fundraiser</label>
+				<ul>
+					<li><a class="active" href="index.html">Home</a></li>
+					<li><a href="donate.html">Donate</a></li>
+					<li><a href="contactus.html">contact</a></li>
+				</ul>
+		</nav>
+	</div>
+	<div>
+		<h2 class="about">ABOUT OUR <font style="color: orange">HUMANITY</font></h2>
+		<h3>When you give to Our humanity, you know your donation is making a difference. Whether you are supporting one of our Signature Programs or our carefully curated list of Gifts That Give More, our professional staff works hard every day to ensure every dollar has impact for the cause of your choice.</h3>
+
+		<h2 class="about">Years of <font style="color: orange">Experience</font></h2>
+		<h3>We partner with over 320 amazing projects worldwide, and have given over $150 million in cash and product grants to other groups since 2011. We also operate our own dynamic suite of Signature Programs.</h3>
+		<ul class="aboutt">
+			<li>This mistaken idea of denouncing pleasure</li>
+            <li>Master-builder of human happiness</li>
+            <li>Occasionally circumstances occur in toil</li>
+            <li>Undertakes laborious physical exercise</li>
+		</ul>
+		<div>
+			<img src="slum.jpeg" class="img">
+		</div>
+		<div class="footer">
+        <p>This website is just a task.</p>
+        <p>Piyush Dantani</p>
+        <p>Creator of this website.</p>
+		
+		</div>
+	</body>
+</html>
